@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: #777777;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drump-pad{
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    background: #222222;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+}
+
+.pad{
+    background: #ececec;
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+    box-shadow: inset 10px 10px 30px #44444444;
+    border-radius: 5px;
+    transition: all 0.1 linear
+}
